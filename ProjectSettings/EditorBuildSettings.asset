@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/360VideoTour.unity
+    guid: fde459e3352890148afc6af569930ac4
+  - enabled: 0
+    path: Assets/Scenes/Cantina.unity
+    guid: 39f8aef8760493c469fc99464e4cd392
+  - enabled: 0
+    path: Assets/Scenes/Mezzanine.unity
+    guid: 2a4f254d6c8aa4244baa8a464d6f5086
+  - enabled: 0
+    path: Assets/Scenes/Cube.unity
+    guid: 5c53ce15459363c44bb55c28f3f57ebe
+  - enabled: 0
+    path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.25.0/Hello Cardboard/Scenes/HelloCardboard.unity
+    guid: 03c48c5e809944fa4afcae9973709f26
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 60d8e73325e2fd945974e1c8dee16a5c, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2b96b695af022bb4580cd29b2e99d862, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e20b3c2d84fbec947bd9c63cfe17d04d, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 378df316619b1c840bdc765a50f9ccc8, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 52b19c3b5e66eda429ef6c48015c2063, type: 2}
