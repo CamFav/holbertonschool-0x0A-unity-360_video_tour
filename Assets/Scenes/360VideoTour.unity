@@ -427,7 +427,6 @@ GameObject:
   - component: {fileID: 165444068}
   - component: {fileID: 165444067}
   - component: {fileID: 165444066}
-  - component: {fileID: 165444069}
   m_Layer: 5
   m_Name: HotspotCanvas
   m_TagString: Untagged
@@ -523,20 +522,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &165444069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165444064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bbebbefbb871394a9863d2481fbbe9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gazeDuration: 1
-  scaleFactor: 1.2
 --- !u!1 &167103855
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1441,7 @@ GameObject:
   - component: {fileID: 489021361}
   - component: {fileID: 489021360}
   - component: {fileID: 489021359}
+  - component: {fileID: 489021362}
   m_Layer: 5
   m_Name: MezzanineHotspot (2)
   m_TagString: Untagged
@@ -1577,6 +1563,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489021356}
   m_CullTransparentMesh: 1
+--- !u!114 &489021362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489021356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbebbefbb871394a9863d2481fbbe9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeDuration: 1
+  scaleFactor: 1.2
 --- !u!4 &490087893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 482300, guid: 15fcd94adb15b48f7bb4a80622ae7046, type: 3}
@@ -1971,7 +1971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1daa782bad553c340925c54fdb275b62, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6317578925029434746, guid: 1daa782bad553c340925c54fdb275b62, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2498,6 +2498,7 @@ GameObject:
   - component: {fileID: 687049841}
   - component: {fileID: 687049840}
   - component: {fileID: 687049839}
+  - component: {fileID: 687049842}
   m_Layer: 5
   m_Name: CantinaHotspot (1)
   m_TagString: Untagged
@@ -2619,6 +2620,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687049836}
   m_CullTransparentMesh: 1
+--- !u!114 &687049842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687049836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbebbefbb871394a9863d2481fbbe9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeDuration: 1
+  scaleFactor: 1.2
 --- !u!1 &689388814
 GameObject:
   m_ObjectHideFlags: 0
@@ -5038,6 +5053,7 @@ GameObject:
   - component: {fileID: 1031275220}
   - component: {fileID: 1031275219}
   - component: {fileID: 1031275218}
+  - component: {fileID: 1031275221}
   m_Layer: 5
   m_Name: LivingRoomHotspot
   m_TagString: Untagged
@@ -5159,6 +5175,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031275215}
   m_CullTransparentMesh: 1
+--- !u!114 &1031275221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031275215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbebbefbb871394a9863d2481fbbe9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gazeDuration: 1
+  scaleFactor: 1.2
 --- !u!1 &1065651576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1018664272722485354, guid: 1daa782bad553c340925c54fdb275b62, type: 3}
